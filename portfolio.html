@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
+   <header class="header">
       <div class="container header-container">
         <nav class="nav">
           <a href="./index.html" class="logo link">
@@ -39,23 +39,33 @@
             </li>
           </ul>
         </nav>
-        <ul class="contact-list list">
-          <li>
-            <a
-              href="mailto:info@devstudio.com"
-              class="contact-item e-mail link"
-            >
+
+        <ul class="contact-list-header list">
+          <li class="contact-list-email">
+            <a href="mailto:info@devstudio.com" class="contact-item email link">
+              <svg class="icon-envelope" width="16" height="12">
+                <use
+                  class="svg-icon-smartphone"
+                  href="./images/icons.svg#iconsenvelope"
+                ></use>
+              </svg>
               info@devstudio.com
             </a>
           </li>
-          <li>
-            <a href="tel:+380961111111" class="contact-item link">
+          <li class="contact-list-tel">
+            <a href="tel:+380961111111" class="contact-item tel link">
+              <svg class="icon-smartphone" width="12" height="18">
+                <use
+                  class="svg-icon-smartphone"
+                  href="./images/icons.svg#iconssmartphone"
+                ></use>
+              </svg>
               +38 096 111 11 11
             </a>
           </li>
         </ul>
       </div>
-    </header>
+    
     <main>
       <section class="section section-projects">
         <div class="container filter-container">
@@ -246,19 +256,35 @@
           </address>
         </div>
         <div class="join-us">
-          <p>ПРИСОЕДИНЯЙТЕСЬ</p>
-          <ul class="link list socialnetworks">
-            <li class="socnetitems">
-              <a class="socnetitem" href="."></a>
+          <p class="join-us-text">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="socnet-list-footer link list">
+            <li class="socnet-item-footer">
+              <a class="socnet-link-footer socnet-link-insta" href="">
+                <svg class="socnet-svg-footer-insta">
+                  <use href="./images/icons.svg#iconsinstagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="socnetitems">
-              <a class="socnetitem" href=""></a>
+            <li class="socnet-item-footer">
+              <a class="socnet-link-footer socnet-link-twitter" href="">
+                <svg class="socnet-svg-footer-tw">
+                  <use href="./images/icons.svg#iconstwitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="socnetitems">
-              <a class="socnetitem" href=""></a>
+            <li class="socnet-item-footer">
+              <a class="socnet-link-footer socnet-link-fb" href="">
+                <svg class="socnet-svg-footer-fb">
+                  <use href="./images/icons.svg#iconsfacebook"></use>
+                </svg>
+              </a>
             </li>
-            <li class="socnetitems">
-              <a class="socnetitem" href=""></a>
+            <li class="socnet-item-footer">
+              <a class="socnet-link-footer socnet-link-lnkdn" href="">
+                <svg class="socnet-svg-footer-lnkdn">
+                  <use href="./images/icons.svg#iconslinkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
