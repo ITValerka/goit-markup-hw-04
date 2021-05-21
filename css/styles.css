@@ -68,8 +68,8 @@ body {
 img {
   display: block;
 }
-
 /*======COMPONETS END=====*/
+
 /*=====HEADER=====*/
 .header-container {
   display: flex;
@@ -129,12 +129,13 @@ img {
 .contact-list-header {
   display: flex;
   align-items: center;
-  margin-left: 246px;
+  margin-left: auto;
   color: var(--second-colour-for-text);
 }
 .icon-envelope {
   fill: currentColor;
-  padding-right: 10px;
+  margin-right: 10px;
+  padding-top: 7px;
 }
 .contact-list-tel {
   padding-left: 30px;
@@ -369,7 +370,8 @@ img {
 .socnet-item-team:focus {
   background-color: var(--color-logo-btn-accent);
 }
-.socnet-item-team:hover .socnet-svg-team-insta {
+.socnet-item-team:hover .socnet-svg-team-insta,
+.socnet-item-team:focus .socnet-svg-team-insta {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-team-insta {
@@ -377,7 +379,8 @@ img {
   height: 20px;
   fill: var(--svg-color);
 }
-.socnet-item-team:hover .socnet-svg-team-tw {
+.socnet-item-team:hover .socnet-svg-team-tw,
+.socnet-item-team:focus .socnet-svg-team-tw {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-team-tw {
@@ -385,7 +388,8 @@ img {
   height: 20px;
   fill: var(--svg-color);
 }
-.socnet-item-team:hover .socnet-svg-team-fb {
+.socnet-item-team:hover .socnet-svg-team-fb,
+.socnet-item-team:focus .socnet-svg-team-fb {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-team-fb {
@@ -393,7 +397,8 @@ img {
   height: 20px;
   fill: var(--svg-color);
 }
-.socnet-item-team:hover .socnet-svg-team-lnkdn {
+.socnet-item-team:hover .socnet-svg-team-lnkdn,
+.socnet-item-team:focus .socnet-svg-team-lnkdn {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-team-lnkdn {
@@ -414,6 +419,7 @@ img {
   justify-content: space-between;
 }
 .svg-client {
+  display: flex;
   width: 106px;
   height: 60px;
   fill: var(--svg-color);
@@ -428,7 +434,8 @@ img {
 .client-item:focus {
   background-color: transparent;
 }
-.client-item:hover .svg-client {
+.client-item:hover .svg-client,
+.client-item:focus .svg-client {
   fill: var(--color-logo-btn-accent);
   border: solid 1px var(--color-logo-btn-accent);
 }
@@ -446,6 +453,7 @@ img {
 .footer-container {
   display: flex;
   width: 1170px;
+  align-items: baseline;
 }
 .contact-list-footer {
   display: block;
@@ -475,9 +483,7 @@ img {
 }
 .contact-item-footer {
   color: rgba(255, 255, 255, 0.6);
-}
-.contact-list-footer-item {
-  padding-bottom: 6px;
+  margin-top: 13px;
 }
 .all-contacts:hover,
 .all-contacts:focus {
@@ -518,7 +524,8 @@ img {
 .socnet-item-footer:focus {
   background-color: var(--color-logo-btn-accent);
 }
-.socnet-item-footer:hover .socnet-svg-footer-insta {
+.socnet-item-footer:hover .socnet-svg-footer-insta,
+.socnet-item-footer:focus .socnet-svg-footer-insta {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-footer-insta {
@@ -526,7 +533,8 @@ img {
   height: 20px;
   fill: var(--svg-color);
 }
-.socnet-item-footer:hover .socnet-svg-footer-tw {
+.socnet-item-footer:hover .socnet-svg-footer-tw,
+.socnet-item-footer:focus .socnet-svg-footer-tw {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-footer-tw {
@@ -534,7 +542,8 @@ img {
   height: 20px;
   fill: var(--svg-color);
 }
-.socnet-item-footer:hover .socnet-svg-footer-fb {
+.socnet-item-footer:hover .socnet-svg-footer-fb,
+.socnet-item-footer:focus .socnet-svg-footer-fb {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-footer-fb {
@@ -542,7 +551,8 @@ img {
   height: 20px;
   fill: var(--svg-color);
 }
-.socnet-item-footer:hover .socnet-svg-footer-lnkdn {
+.socnet-item-footer:hover .socnet-svg-footer-lnkdn,
+.socnet-item-footer:focus .socnet-svg-footer-lnkdn {
   fill: var(--accent-text-for-btn);
 }
 .socnet-svg-footer-lnkdn {
